@@ -1,5 +1,5 @@
 1 - SELECT * FROM teachers 
-2 - SELECT * FROM departments;
+2 - SELECT * FROM departments WHERE head_of_department;
 3 - SELECT * FROM degrees WHERE level='magistrale';
 4 - SELECT * FROM students WHERE name='Marco';
 5 - SELECT * FROM courses WHERE cfu >= 12;
